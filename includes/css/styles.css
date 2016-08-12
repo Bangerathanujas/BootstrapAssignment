@@ -1,0 +1,229 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Thanuja S
+Updated: August 2016
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align:center;
+position:relative;
+}
+#features img{
+  margin: 0 0 20px;
+}
+#feature{
+
+}
+ .list-group-item:last-child{
+  padding-bottom: 30px;
+}
+.modal-body{
+  padding-bottom: 0;
+}
+#inputMessage{
+  margin-bottom: 15px;
+}
+
+/*.panel{
+  height:550px;
+}*/
+footer{
+  background: #333;
+  color:#eee;
+  font-size:11px;
+  padding:20px;
+}
+.jumbotron{
+  margin-top:20px;
+  margin-bottom:20px;
+  background: url("../../images/Jumbotron_image.jpg") top center no-repeat;
+  position:relative;
+  width:100%;
+  height: 400px;
+  background-size: 100% 100%;
+}
+.list-group p{
+  margin-left:100px;
+}
+#tab1 .list-group{
+  margin-top: 5px;
+}
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+     -webkit-font-smoothing:antialiased;
+     text-rendering:optimizeLegibility;
+     font-family: 'Slabo 27px', serif;
+   }
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+ul.unstyled{
+  list-style:none;
+  padding:0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput
+   {
+     width:200px;
+   }
+.navbar-brand{
+  padding:13px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+     margin-top:60px;
+   }
+   .carousel caption{
+     font-size: 24px;
+   }
+   .carousel caption h4{
+     font-size: 32px;
+   }
+#myCarousel .item{
+  height:400px;
+}
+#slide1{
+  background: url("../../images/quote_medium_1.png") top center no-repeat;
+}
+#slide2{
+  background: url("../../images/quote_medium_2.png") top center no-repeat;
+}
+#slide3{
+  background: url("../../images/quote_medium_3.png") top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+  margin:20px 0;
+}
+.alert{
+  margin-top:20px;
+  display: none;
+}
+.tabbable img.thumbnail{
+  margin:0 20px 10px 0;
+}
+.thumbnails{
+  margin:20px 0;
+}
+.thumbnail{
+  position:relative;
+}
+.thumbnail h3{
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height:20px;
+}
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
+}
+.thumbnail .price sup{
+  font-weight: normal;
+  font-size: 12px;
+}
+.thumbnail span.glyphicon{
+  margin-top: 5px;
+}
+.panel-title{
+  height:38px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.thumbnail .price{
+  font-size: 14px;
+}
+.thumbnail .price sup{
+  font-size: 10px;
+}
+#modal{
+  width:100px;
+  height:35px;
+}
+#myCarousel .item{
+height:200px;
+}
+#slide1{
+background: url("../../images/quote_little_1.png") top center no-repeat;
+}
+#slide2{
+background: url("../../images/quote_little_2.png") top center no-repeat;
+}
+#slide3{
+background: url("../../images/quote_little_3.png") top center no-repeat;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+
+  #myCarousel .item{
+  height:310px;
+  }
+  #slide1{
+  background:url("../../images/quote_small_1.png") top center no-repeat;
+  }
+  #slide2{
+  background:url("../../images/quote_small_2.png") top center no-repeat;
+  }
+  #slide3{
+  background: url("../../images/quote_small_3.png") top center no-repeat;
+  }
+  .carousel caption{
+    font-size: 16px;
+  }
+  .carousel caption h4{
+    font-size: 22px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  #myCarousel .item{
+  height:500px;
+  }
+  #slide1{
+  background: url("../../images/quote_large_1.jpg") top center no-repeat;
+  }
+  #slide2{
+  background: url("../../images/quote_large_2.jpg") top center no-repeat;
+  }
+  #slide3{
+  background: url("../../images/quote_large_3.jpg") top center no-repeat;
+  }
+}
